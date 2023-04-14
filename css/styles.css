@@ -15,6 +15,7 @@
   --header-btm-border: #E7E9FC;
   --portfolio-bottons: #E7E9FC;
   --footer-social: #31D0AA;
+  --customers-icon: #afb1b8;
 }
 
 /* Reset Start */
@@ -466,17 +467,19 @@ border-radius: 50%; */
   border-radius: 4px;
   width: 100%;
   height: 100%;
+  fill: var(--customers-icon);
 }
 
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--pressed-state);
+  color: var(--pressed-state);
   fill: var(--pressed-state);
 }
-.customers-logo:hover,
+/* .customers-logo:hover,
 .customers-logo:focus {
   fill: var(--pressed-state);
-}
+} */
 
 .customers-logo {
   fill: currentColor;;
